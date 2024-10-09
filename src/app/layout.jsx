@@ -6,7 +6,7 @@ import './styles.sass'
 const inter = Open_Sans({ subsets: ['latin'], style: 'normal', weight: ['300', '400', '500', '600', '700', '800'] })
 
 export const metadata = {
-  title: 'Дмитрий Капустин',
+  title: 'Dmitrii Kapustin',
   description: '',
 }
 
