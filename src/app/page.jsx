@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <section>
       <div className="col-1">
-        <Image src={'/photo.jpg'} width={400} height={400} alt="Dmitrii Kapustin"/>
+        <Image src={'/photo.jpg'} width={1000} height={1000} alt="Dmitrii Kapustin"/>
         <h1>
           <strong>Dmitrii Kapustin</strong>
           <br/>
