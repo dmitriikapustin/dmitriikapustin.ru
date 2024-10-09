@@ -5,11 +5,11 @@ export default function Page() {
   return (
     <section>
       <div className="col-1">
-        <Image src={'/photo.webp'} width={500} height={500} alt="Дмитрий Капустин"/>
+        <Image src={'/photo.jpg'} width={400} height={400} alt="Dmitrii Kapustin"/>
         <h1>
-          <strong>Дмитрий Капустин</strong>
+          <strong>Dmitrii Kapustin</strong>
           <br/>
-          <small>Tech Entrepreneur</small>
+          <small style={{fontWeight: 400}}>Products</small>
         </h1>
       </div>
       <div className="col-2">
@@ -21,12 +21,12 @@ export default function Page() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam quas harum, obcaecati voluptate nostrum enim vel omnis! Laudantium dicta, quos quibusdam odio veritatis labore nam! Sunt similique perferendis maxime.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam quas harum, obcaecati voluptate nostrum enim vel omnis! Laudantium dicta, quos quibusdam odio veritatis labore nam! Sunt similique perferendis maxime.</p>
         </div>
-        <div className="contacts">
+        {/* <div className="contacts">
           <p>Для связи: <strong>Кто-то</strong></p>
-        </div>
+        </div> */}
         <div className="btns-container">
-          <Link className="button" href={'tel:89999999999'}>+8-999-999-99-99</Link>
-          <Link className="button" href={'mailto:pochta@mail.ru'}>pochta@mail.ru</Link>
+          <Link className="button" href={'https://t.me/dmitriikapustin'}>Message in Telegram</Link>
+          {/* <Link className="button" href={'mailto:pochta@mail.ru'}>dmitrii@kapustin.team</Link> */}
         </div>
       </div>
     </section>
