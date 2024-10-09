@@ -1,0 +1,25 @@
+@function calcFluidFontSize($f-min, $f-max, $v-min, $v-max)
+  $k: ($f-max - $f-min)/($v-max - $v-min)
+  $b: $f-min - $k * $v-min
+
+  $b: $b * 1px
+
+  @return calc( #{$k} * 100vw + #{$b} )
+
+h1
+  font-size: 1.9rem
+  @media(min-width: 1001px)
+    font-size: calcFluidFontSize(19, 36, 1000, 1920)
+  
+
+p
+  font-size: 0.9rem
+  line-height: 1.3
+  @media(min-width: 1001px)
+    font-size: calcFluidFontSize(10, 19, 1000, 1920)
+
+a
+  font-size: 1.2rem
+  font-weight: 600
+  @media(min-width: 1001px)
+    font-size: calcFluidFontSize(11, 20, 1000, 1920)
