@@ -9,14 +9,12 @@ export default function Page() {
         <h1>
           <strong>Dmitrii Kapustin</strong>
           <br/>
-          <small style={{fontWeight: 400}}>Products</small>
+          <small style={{fontWeight: 400, opacity: 0.8}}>Products</small>
         </h1>
       </div>
       <div className="col-2">
         <div className="text">
           <p><strong>Lorem ipsum dolor</strong> sit amet consectetur adipisicing elit. Architecto laboriosam quas harum, obcaecati voluptate nostrum enim vel omnis! Laudantium dicta, quos quibusdam odio veritatis labore nam! Sunt similique perferendis maxime.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam quas harum, obcaecati voluptate nostrum enim vel omnis! Laudantium dicta, quos quibusdam odio veritatis labore nam! Sunt similique perferendis maxime.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam quas harum, obcaecati voluptate nostrum enim vel omnis! Laudantium dicta, quos quibusdam odio veritatis labore nam! Sunt similique perferendis maxime.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam quas harum, obcaecati voluptate nostrum enim vel omnis! Laudantium dicta, quos quibusdam odio veritatis labore nam! Sunt similique perferendis maxime.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam quas harum, obcaecati voluptate nostrum enim vel omnis! Laudantium dicta, quos quibusdam odio veritatis labore nam! Sunt similique perferendis maxime.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laboriosam quas harum, obcaecati voluptate nostrum enim vel omnis! Laudantium dicta, quos quibusdam odio veritatis labore nam! Sunt similique perferendis maxime.</p>
