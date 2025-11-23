@@ -1,9 +1,9 @@
-import { Open_Sans } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import './font.sass'
 import './globals.css'
 import './styles.sass'
 
-const inter = Open_Sans({ subsets: ['latin'], style: 'normal', weight: ['300', '400', '500', '600', '700', '800'] })
+const inter = Inter({ subsets: ['latin'], style: 'normal', weight: ['300', '400', '500', '600', '700', '800'] })
 
 export const metadata = {
   title: 'Dmitrii Kapustin',
